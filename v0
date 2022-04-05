@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  char a[]="3+4";
+  int leftoperand=a[0]-'0';
+  intrigthoperand=a[2]-'0';
+  int s=leftoperand+rigthoperand;
+  printf("s=%d\n",s);
+  return 0;
+}
